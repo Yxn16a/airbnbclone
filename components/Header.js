@@ -14,6 +14,7 @@ export default function Header() {
         <Image
           src="https://links.papareact.com/qd3"
           fill
+          alt="logo"
           style={{ objectFit: "contain", objectPosition: "left" }}
         />
       </div>

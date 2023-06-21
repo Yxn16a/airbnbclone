@@ -10,7 +10,7 @@ function SmallCard({ img, distance, location }) {
           src={img}
           fill
         
-          alt="hello"
+          alt="location image"
           style={{ objectFit: "cover" }}
         />
       </div>

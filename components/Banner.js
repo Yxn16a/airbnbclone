@@ -6,12 +6,13 @@ export default function Banner() {
       <Image
         src="https://links.papareact.com/0fm"
         fill
+        alt="Banner image"
         style={{ objectFit: "cover" }}
       />
       <div className="absolute top-1/2 w-full text-center ">
         <p className="text-sm sm:text-lg"> Not sure wher to go? Perfect.</p>
         <button className="text-purple-500 bg-white px-10 py-4 rounded-full shadow-md font-bold my-2 hover:shadow-xl active:scale-90 transition duration-150">
-          I'm flexible
+          I am flexible
         </button>
       </div>
     </div>

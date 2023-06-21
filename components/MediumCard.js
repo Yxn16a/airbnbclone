@@ -8,9 +8,13 @@ function MediumCard({ img, title }) {
     tranform transition duration-300 ease-out"
     >
       <div className="relative h-80 w-80">
-        <Image src={img} fill className="rounded-xl"
+        <Image
+          src={img}
+          fill
+          className="rounded-xl"
           style={{ objectFit: "cover" }}
-        alt="Image"/>
+          alt="Choosen by airbnb"
+        />
       </div>
       <h3 className="text-xl mt-3">{title}</h3>
     </div>
